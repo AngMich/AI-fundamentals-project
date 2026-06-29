@@ -1,0 +1,37 @@
+executions(0).
+numAppearances(1,0).
+numAppearances(2,0).
+numAppearances(3,0).
+numAppearances(4,0).
+numAppearances(5,0).
+numAppearances(6,0).
+numAppearances(7,0).
+numAppearances(8,0).
+fault(1,"Injector not sealing in cylinder head", [1,2,5],1,1).
+fault(2,"Two sealing washers under injector", [1,2,3,4,5],2,2).
+fault(3,"High pressure pipe joint leaks", [1,2,5],3,3).
+fault(4,"Back leak pipe joint leaks", [2],4,4).
+fault(5,"High pressure pipe restricted", [1],5,5).
+fault(6,"Injector sticking", [1,2,3,4,5],6,6).
+fault(7,"Incorrect injectors fitted", [1,2,3,4,5],7,7).
+fault(8,"Injector faulty",[1,2,3,4,5],8,7).
+symptom(1,"Cylinder knock - Uneven Running - Misfire").
+symptom(2,"Loss of power - Excessive Consumption").
+symptom(3,"Engine Overheating").
+symptom(4,"Black Smoke").
+symptom(5,"Poor Starting").
+test(1,"For cleanliness and sealing washers if specified").
+test(2,"Number of washers and if specified").
+test(3,"Pipe unions for leaks").
+test(4,"Unions for leaks").
+test(5,"High pressure pipe bores").
+test(6,"Fixing nuts or bolts are accurately torqued with correct washer").
+test(7,"Manufacturer's specification").
+test(8,"Check injector on a nozzle setting outfit").
+action(1,"clean and seal washers").
+action(2,"Set correct number of washers under injector").
+action(3,"Fix pipe union leaks").
+action(4,"Fix union leaks").
+action(5,"Un-restrict high-pressure pipe bores").
+action(6,"Accurately torque with correct washer").
+action(7,"Replace and fit correct injector").
