@@ -1,2 +1,2 @@
 # AI-fundamentals-project
-uni project for the ITC 4380 ACG course
+An expert system for engine fault diagnosis using a structured knowledge base (KB) of faults, symptoms, tests, and corrective actions. A backtracking algorithm computes minimal fault candidate sets that explain all observed symptoms, ranked by a probabilistic likelihood function incorporating execution history, symptom coverage, and unobserved symptom count as tiebreakers. The system iteratively refines future rankings through execution history updates.
